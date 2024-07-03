@@ -1,0 +1,6 @@
+xarray[io]
+onnx
+onnxruntime
+pandas
+numpy
+scipy
