@@ -126,6 +126,8 @@ class FuXi:
 
 
 class FuXiPW(FuXi):
+    """Модель FuXi + Pangu-Weather + Linear Interpolation"""
+
     def __init__(self, model_dir: pathlib.Path = DEFAULT_FUXI_PATH):
         super().__init__(model_dir)
 
